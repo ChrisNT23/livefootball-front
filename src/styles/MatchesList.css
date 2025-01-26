@@ -1,0 +1,109 @@
+.matches-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .matches-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .team {
+    width: 48%;
+  }
+  
+  .team h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffd700;
+  }
+
+  .matches-table th,
+  .matches-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .matches-table th {
+    background: #4caf50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .matches-table tr:nth-child(even) {
+    background: #f2f2f2;
+  }
+  
+  .matches-table tr:hover {
+    background: #e0f7fa;
+  }
+  
+  .matches-table td {
+    color: #333;
+  }
+  
+  .formation {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formation-line {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70px;
+  position: relative;
+}
+
+.player-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.player-name {
+  font-size: 0.75rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.player-score {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  background: #ff5722;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
